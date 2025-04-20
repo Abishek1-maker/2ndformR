@@ -6,6 +6,7 @@ const Signup = () => {
     const {register,handleSubmit,formState:{errors}}=useForm()
   return (
     <>
+    
     <div className='border-2 min-h-117.5  flex justify-center items-center bg-amber-100 border-transparent'>
       <form onSubmit={handleSubmit((data)=>console.log(data))}  className='flex-col flex items-center '>
         <Input

@@ -14,7 +14,7 @@ const Input = ({title,name,id,type,className,...data}) => {
         name={name}
         {...data}
         placeholder={name}
-       className={`border-black border-2 p-2 rounded-[2px] outline-none  focus:border-blue-500 ${className} `}
+       className={`border-black border-2 p-2 rounded-[2px] outline-none focus:border-blue-500 focus:shadow-[0_0_10px_2px_rgba(59,130,246,0.5)] ${className} `}
         />
     </>
   )
